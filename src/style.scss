@@ -1,0 +1,105 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgb(10%, 10%, 10%);
+  background: darken(white, 10%);
+  margin: 50px;
+}
+
+#welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#desc {
+  width: 25%;
+  font-size: 1.25em;
+}
+
+#startDesc {
+  width: 25%;
+  font-size: 1.25em;
+  margin-bottom: 40px;
+}
+
+#authButton {
+  color: lighten(black, 10%);
+  background-color: #97ccbc;
+  font-size: 2em;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#authButton:hover {
+  background-color: darken(#97ccbc, 10%);
+}
+
+#appname {
+  font-size: 350%;
+}
+
+#submit {
+  display:flex;
+  flex-direction:row;
+}
+
+#form {
+  display:flex;
+  flex-direction:column;
+  width: 35%;
+}
+
+#q {
+  font-size: 200%;
+  font-family: arial;
+  height: 500px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#subbutton {
+  font-size: 200%;
+  margin-top: 10px;
+}
+
+#errmessage {
+  font-size: 125%;
+  color: red;
+}
+
+.Select {
+  position: relative;
+  font-size: 150%;
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: none;
+  font-family: arial;
+  color: black;
+}
+
+table {
+  float: right;
+  border: 1px solid black;
+  font-size: 125%;
+  margin-top: 21.44px;
+  margin-left: 50px;
+  background-color: lighten(turquoise, 30%);
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: lighten(turquoise, 10%);
+  font-weight:bold;
+}
+
+tr td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+tbody > tr:hover {
+  background-color: darken(white, 20%);
+}
